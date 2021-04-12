@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+.container {
+		width: 300px;
+		height:auto px;
+		background-color: cadetblue;
+}
+ul { list-style: none;
+		padding: 0;
+	position: relative;
+	
+}
+ul li {
+		padding: 40px;
+	}
+ul li a{
+		text-decoration: none;
+		color: aliceblue;	
+}
+ul li ul {
+		width: 150px;
+		height: auto;							
+		position: absolute;
+		left: 300px;
+		top:100px;
+		visibility: hidden}
+ul li ul li {
+		background-color: burlywood;
+}
+ul li:hover {background-color: coral}
+ul li:hover ul {visibility: visible;
+				background-color: #FFA5A7}
+.sanpham {
+		width: 1500px;
+		height: 300px;
+}
+.sp1 {width: 300px;
+	height: 300px;
+	background-color: #70B0C4;
+	float: left;
+	margin-left: 10px}
+.sp1 img {float: left}
+	
